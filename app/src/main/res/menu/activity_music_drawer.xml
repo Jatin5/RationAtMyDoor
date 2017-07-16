@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/one" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/home" />
+    </group>
+
+    <group android:id="@+id/two" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/settings" />
+    </group>
+
+    <group android:id="@+id/three" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rateUs"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/rateUs" />
+    </group>
+    <group android:id="@+id/four" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/contactUs" />
+    </group>
+    <group android:id="@+id/five" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logOut"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/logOut" />
+    </group>
+
+<!--    <item android:title="@string/remote_services">
+        <menu>
+            <item
+                android:id="@+id/nav_sound_cound"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/sound_cloud" />
+        </menu>
+    </item>
+
+    <item android:title="@string/local_services">
+        <menu>
+            <item
+                android:id="@+id/nav_raw_folder"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/app_raw_folder" />
+        </menu>
+    </item>-->
+
+</menu>

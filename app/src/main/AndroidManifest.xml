@@ -4,11 +4,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/settle_all"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.jatgo.rationatmydoor.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,8 +16,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Home.HomeActivity"
-            android:label="@string/title_activity_home"
+            android:name="com.jatgo.rationatmydoor.HomeActivity"
+            android:label="@string/title_activity_music"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
